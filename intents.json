@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey there", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "track my order", "order status", "has my package shipped", "when will my order arrive", "order tracking","my parcel has not arrived","order is late"],
+      "responses": ["You can track your order under 'My Orders' using your order ID. Tracking updates within 24 hours of dispatch."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["how long does shipping take", "delivery time", "shipping charges", "do you offer free shipping", "do you ship internationally"],
+      "responses": ["Standard delivery takes 3-5 business days. Orders above 500 get free shipping. International shipping is available at checkout."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["how do i return an item", "return policy", "i want a refund", "exchange a product", "product is damaged"],
+      "responses": ["You can return items within 30 days of delivery. Go to 'My Orders' > 'Return Item'. Refunds are issued in 5-7 business days."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["what payment methods do you accept", "can i pay by card", "is cash on delivery available", "payment failed", "my payment was deducted twice"],
+      "responses": ["We accept cards, UPI, net banking and cash on delivery. If a payment failed but money was deducted, it is refunded automatically in 3-5 days."]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": ["agent", "talk to a human", "customer care number", "contact support", "speak to someone"],
+      "responses": ["You can reach our support team at sharonjothi1511@gmail.com or call 1800-000-000 (9am-6pm, Mon-Sat)."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that was helpful", "great thanks"],
+      "responses": ["You're welcome! Anything else I can help with?"]
+    },
+        {
+      "tag": "cancel_order",
+      "patterns": ["cancel my order", "i want to cancel", "how do i cancel an order", "stop my order", "cancel purchase"],
+      "responses": ["You can cancel an order before it ships from 'My Orders' > 'Cancel Order'. If it has already shipped, you can return it after delivery."]
+    }
+  ]
+}
